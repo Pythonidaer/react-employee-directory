@@ -17,7 +17,7 @@ class Random extends Component {
   componentDidMount() {
     API.getRandomTen()
       // .then(res => this.setState({ results: res.data.results }))
-      .then(res => console.log(res.data.results[0]))
+      .then(res => console.log(res.data.results))
       // .then(res => document.write(res.data.results[0]))
       .catch(err => console.log(err));
   }

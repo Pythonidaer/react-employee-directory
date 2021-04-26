@@ -5,7 +5,7 @@ import axios from "axios";
 
 export default {
     getRandomTen: function() {
-        return axios.get("https://randomuser.me/api/?results=10&inc=name");
+        return axios.get("https://randomuser.me/api/?results=6&inc=picture,name,phone,email,dob");
     }
 }
 
