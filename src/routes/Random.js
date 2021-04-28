@@ -15,7 +15,7 @@ class Random extends Component {
 
   // When the component mounts, get a list of ten random users and update this.state.results
   componentDidMount() {
-    API.getRandomTen()
+    API.getRandomSix()
       // .then(res => this.setState({ results: res.data.results }))
       .then(res => console.log(res.data.results))
       // .then(res => document.write(res.data.results[0]))

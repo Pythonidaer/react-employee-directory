@@ -1,0 +1,8 @@
+div.p-4.mb-4 {
+    background: #6c757d;
+}
+
+input.form-control {
+    width: 200px;
+    margin: 0 auto;
+}
