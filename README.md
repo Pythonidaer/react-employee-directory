@@ -1,4 +1,4 @@
-# react-employee-directory
+# React Employee Directory
 *Working on making a Front End directory with axios, Node.js and React.*
 
 [View Deployed Application Here.](https://pythonidaer.github.io/react-employee-directory/)
