@@ -1,17 +1,16 @@
 import React from "react";
-// import "./style.css";
 
-function TableRows(props) {
+function TableRows({ image, first, last, email, phone, dob }) {
     return (
-        <tbody>
-            {props.results.map(result => (
-                <tr key={result}>
-                    <td>
-                        <img src={result.picture.thumbnail} alt="Employee" />
-                    </td>
-                </tr>
-            ))}
-        </tbody>
+        <tr>
+            <td>
+                <img src={image} alt="Employee" />
+            </td>
+            <td>{first}{" "}{last}</td>
+            <td>{phone}</td>
+            <td>{email}</td>
+            <td>{dob}</td>
+        </tr>
     );
 }
 

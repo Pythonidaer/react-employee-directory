@@ -10,3 +10,5 @@
 [reactrouter quick-start guide](https://reactrouter.com/web/guides/quick-start)
 
 [<BrowserRouter>](https://reactrouter.com/web/api/BrowserRouter)
+
+[How to make a GitHub Page](https://create-react-app.dev/docs/deployment/#github-pages)

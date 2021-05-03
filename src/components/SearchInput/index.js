@@ -6,8 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function SearchInput() {
     return (
         <div className="p-4 mb-4">
-            {/* <!-- <label for="exampleDataList" class="form-label">Datalist example</label> --> */}
-            <input className="form-control" list="datalistOptions" id="exampleDataList" placeholder="Search"
+            <input className="form-control" list="datalistOptions" id="exampleDataList" placeholder="This does nothing"
                 />
         </div>
   );

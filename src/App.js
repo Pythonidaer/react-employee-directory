@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header";
 import SearchInput from "./components/SearchInput";
 import Home from "./routes/Home";
-import Random from "./routes/Random";
 import SearchResults from "./components/SearchResults";
 
 function App() {
@@ -17,10 +16,7 @@ function App() {
         <Router>
             <Header />
             <SearchInput />
-            {/* <Wrapper> */}
             <Route exact path="/" component={Home} />
-            <Route exact path="/random" component={Random} />
-            {/* </Wrapper> */}
             {/* <!-- Container is holding the table --> */}
             <div className="container-lg">
                 {/* <!-- Optional JavaScript; choose one of the two! --> */}
@@ -34,8 +30,7 @@ function App() {
                             <th scope="col">DOB</th>
                         </tr>
                     </thead>
-                    <SearchResults></SearchResults>
-                    {/* Table Rows */}
+                    <SearchResults/>
                 </table>
             </div>
         </Router>
